@@ -1,7 +1,7 @@
 #prerequisites
 #spark-submit gcs_spark.py
 # Download the jar from https://storage.googleapis.com/hadoop-lib/gcs/gcs-connector-latest-hadoop2.jar
-
+#few lines of code added/modified by Saravanakumar
 from pyspark.sql.functions import *
 from pyspark.sql.types import *
 def main():
